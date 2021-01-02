@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A1589ED2596FD960039134E /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1589EC2596FD960039134E /* ContactsViewController.swift */; };
+		1A55E59D2592667400195A79 /* VoiceMailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A55E59C2592667400195A79 /* VoiceMailViewController.swift */; };
+		1AB5FEA2259045D000C503A7 /* KeypadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5FEA1259045D000C503A7 /* KeypadViewController.swift */; };
+		1AB678432592F5880021F872 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB678422592F5880021F872 /* FavoritesViewController.swift */; };
 		1AB6E6B8258FA82D00AF364E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6E6B7258FA82D00AF364E /* AppDelegate.swift */; };
 		1AB6E6BA258FA82D00AF364E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6E6B9258FA82D00AF364E /* SceneDelegate.swift */; };
 		1AB6E6BC258FA82D00AF364E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB6E6BB258FA82D00AF364E /* ViewController.swift */; };
 		1AB6E6BF258FA82D00AF364E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6E6BD258FA82D00AF364E /* Main.storyboard */; };
 		1AB6E6C1258FA82F00AF364E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6E6C0258FA82F00AF364E /* Assets.xcassets */; };
 		1AB6E6C4258FA82F00AF364E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AB6E6C2258FA82F00AF364E /* LaunchScreen.storyboard */; };
+		1AEEE5432595D45100119D56 /* RecentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AEEE5422595D45100119D56 /* RecentsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A1589EC2596FD960039134E /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		1A55E59C2592667400195A79 /* VoiceMailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceMailViewController.swift; sourceTree = "<group>"; };
+		1AB5FEA1259045D000C503A7 /* KeypadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadViewController.swift; sourceTree = "<group>"; };
+		1AB678422592F5880021F872 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		1AB6E6B4258FA82D00AF364E /* Key pad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Key pad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB6E6B7258FA82D00AF364E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AB6E6B9258FA82D00AF364E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		1AB6E6C0258FA82F00AF364E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB6E6C3258FA82F00AF364E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AB6E6C5258FA82F00AF364E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEEE5422595D45100119D56 /* RecentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				1AB6E6C0258FA82F00AF364E /* Assets.xcassets */,
 				1AB6E6C2258FA82F00AF364E /* LaunchScreen.storyboard */,
 				1AB6E6C5258FA82F00AF364E /* Info.plist */,
+				1AB5FEA1259045D000C503A7 /* KeypadViewController.swift */,
+				1A55E59C2592667400195A79 /* VoiceMailViewController.swift */,
+				1AB678422592F5880021F872 /* FavoritesViewController.swift */,
+				1AEEE5422595D45100119D56 /* RecentsViewController.swift */,
+				1A1589EC2596FD960039134E /* ContactsViewController.swift */,
 			);
 			path = "Key pad";
 			sourceTree = "<group>";
@@ -139,7 +154,12 @@
 			files = (
 				1AB6E6BC258FA82D00AF364E /* ViewController.swift in Sources */,
 				1AB6E6B8258FA82D00AF364E /* AppDelegate.swift in Sources */,
+				1AB5FEA2259045D000C503A7 /* KeypadViewController.swift in Sources */,
 				1AB6E6BA258FA82D00AF364E /* SceneDelegate.swift in Sources */,
+				1AEEE5432595D45100119D56 /* RecentsViewController.swift in Sources */,
+				1A1589ED2596FD960039134E /* ContactsViewController.swift in Sources */,
+				1AB678432592F5880021F872 /* FavoritesViewController.swift in Sources */,
+				1A55E59D2592667400195A79 /* VoiceMailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
