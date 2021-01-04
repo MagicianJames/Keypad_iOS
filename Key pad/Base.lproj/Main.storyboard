@@ -73,8 +73,9 @@
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
-                                    <outlet property="dataSource" destination="uv8-Gx-RuG" id="zvM-T6-zb8"/>
-                                    <outlet property="delegate" destination="uv8-Gx-RuG" id="Bgb-pe-Ivk"/>
+                                    <outlet property="dataSource" destination="uv8-Gx-RuG" id="oE2-Fv-yee"/>
+                                    <outlet property="delegate" destination="uv8-Gx-RuG" id="tQb-Hr-whf"/>
+                                    <outlet property="prefetchDataSource" destination="uv8-Gx-RuG" id="xDf-6L-brn"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -90,6 +91,9 @@
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="edit" id="82h-la-cnw"/>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="tvNames" destination="2xV-5M-hh7" id="EN9-fy-hdR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YZI-AQ-Oj1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
